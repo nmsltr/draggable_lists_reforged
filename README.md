@@ -1,7 +1,7 @@
 # Draggable Lists Reforged
 Just a port of "[Draggable Lists](https://modrinth.com/mod/draggable-lists)" to newer versions. 
 
-**Thanks to the original author, mrmelon54!**
+**Thanks to the original author, [mrmelon54](https://github.com/MrMelon54)!**
 
 ## Info
 
