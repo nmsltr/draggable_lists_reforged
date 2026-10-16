@@ -1,10 +1,9 @@
 {
-  "modid": "draggable_lists",
-  "modname": "Draggable Lists",
+  "modid": "draggable_lists_r",
+  "modname": "Draggable lists Reforged",
   "modclass": "DraggableLists",
   "modgroup": "com.mrmelon54.DraggableLists",
-  "moddesc": "Draggable resource packs, datapacks and servers",
-  "modwebsite": "https://mrmelon54.com/minecraft/draggable-lists",
-  "modsource": "https://github.com/mrmelon54/draggable_lists",
-  "modissue": "https://github.com/mrmelon54/draggable_lists/issues"
+  "moddesc": "Draggable resource packs, datapacks, and servers - now on new versions!",
+  "modsource": "https://github.com/nmsltr/draggable_lists_reforged",
+  "modissue": "https://github.com/nmsltr/draggable_lists_reforged/issues"
 }
