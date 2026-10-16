@@ -5,50 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98340bbf-53a3-413b-b095-1bd59914eb5c" name="Changes" comment="пенис!!!!">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/FUNDING.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/Cursor.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/Cursor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DragItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DragItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DragList.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DragList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DragManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DragManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DraggableLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DraggableLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/config/EnabledMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/config/EnabledMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/duck/ResourcePackOrganizerDuckProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/duck/ResourcePackOrganizerDuckProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/MinecraftMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/MinecraftMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/PackSelectionModelMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/PackSelectionModelMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/PackSelectionModel_EntryBaseMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/PackSelectionModel_EntryBaseMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/PackSelectionScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/PackSelectionScreenMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/TransferableSelectionListMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/TransferableSelectionListMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/TransferableSelectionList_PackEntryMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/TransferableSelectionList_PackEntryMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/server/JoinMultiplayerScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/server/JoinMultiplayerScreenMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/server/OnlineServerEntryMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/server/OnlineServerEntryMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/server/ServerSelectionListMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/server/ServerSelectionListMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/draggable_lists.accesswidener" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/draggable_lists.accesswidener" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric-like/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric-like/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric-like/src/main/java/com/mrmelon54/DraggableLists/fabriclike/ModMenuIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric-like/src/main/java/com/mrmelon54/DraggableLists/fabriclike/ModMenuIntegration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/src/main/java/com/mrmelon54/DraggableLists/neoforge/DraggableListsNeoforge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/neoforge.mods.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/src/main/resources/draggable_lists.mixins.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/src/main/resources/pack.mcmeta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quilt/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quilt/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quilt/src/main/java/com/mrmelon54/DraggableLists/quilt/DraggableListsQuilt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quilt/src/main/resources/draggable_lists.mixins.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quilt/src/main/resources/quilt.mod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
