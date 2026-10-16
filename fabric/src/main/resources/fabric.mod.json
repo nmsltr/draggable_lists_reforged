@@ -1,16 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "draggable_lists",
+  "id": "draggable_lists_r",
   "version": "${version}",
-  "name": "Draggable Lists",
+  "name": "Draggable lists Reforged",
   "description": "${description}",
   "authors": [
     "MrMelon54"
   ],
+  "contributors": [
+    "NIM_bp"
+  ],
+
   "contact": {
-    "homepage": "https://mrmelon54.com/minecraft/draggable-lists",
-    "sources": "https://github.com/mrmelon54/draggable_lists",
-    "issues": "https://github.com/mrmelon54/draggable_lists/issues"
+    "sources": "https://github.com/nmsltr/draggable_lists_reforged"
   },
   "license": "GPL-3.0-only",
   "icon": "icon.png",
@@ -28,7 +30,7 @@
     "draggable_lists-common.mixins.json"
   ],
   "depends": {
-    "fabric": "*",
+    "fabric-api": "*",
     "minecraft": ">=${minecraft_version}",
     "architectury": ">=${architectury_version}",
     "cloth-config": ">=${cloth_config_version}"

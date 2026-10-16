@@ -8,12 +8,13 @@ public class Cursor {
 
     public static void setDragging() {
         isDragging = true;
-        GLFW.glfwSetCursor(Minecraft.getInstance().getWindow().getWindow(), GLFW.glfwCreateStandardCursor(GLFW.GLFW_VRESIZE_CURSOR));
+        GLFW.glfwSetCursor(Minecraft.getInstance().getWindow().handle(), GLFW.glfwCreateStandardCursor(GLFW.GLFW_VRESIZE_CURSOR));
     }
 
     public static void reset() {
         if (!isDragging) return;
         isDragging = false;
-        GLFW.glfwSetCursor(Minecraft.getInstance().getWindow().getWindow(), GLFW.glfwCreateStandardCursor(GLFW.GLFW_ARROW_CURSOR));
+        GLFW.glfwSetCursor(Minecraft.getInstance().getWindow().handle(), GLFW.glfwCreateStandardCursor(GLFW.GLFW_ARROW_CURSOR));
     }
 }
+

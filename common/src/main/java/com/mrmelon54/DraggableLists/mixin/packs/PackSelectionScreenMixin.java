@@ -4,6 +4,8 @@ import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.packs.PackSelectionModel;
 import net.minecraft.client.gui.screens.packs.PackSelectionScreen;
 import net.minecraft.client.gui.screens.packs.TransferableSelectionList;
+import net.minecraft.client.input.MouseButtonEvent;
+import net.minecraft.client.input.MouseButtonInfo;
 import net.minecraft.network.chat.Component;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -27,8 +29,8 @@ public abstract class PackSelectionScreenMixin extends Screen {
 
     @Override
     public void onClose() {
-        if (selectedPackList.isDragging()) selectedPackList.mouseReleased(0, 0, 0);
-        if (availablePackList.isDragging()) availablePackList.mouseReleased(0, 0, 0);
+        if (selectedPackList.isDragging()) selectedPackList.mouseReleased(new MouseButtonEvent(0, 0, new MouseButtonInfo(0, 0)));
+        if (availablePackList.isDragging()) availablePackList.mouseReleased(new MouseButtonEvent(0, 0, new MouseButtonInfo(0, 0)));
 
         // from PackSelectionScreen::onClose()
         this.model.commit();

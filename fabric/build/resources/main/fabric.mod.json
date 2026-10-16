@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "draggable_lists_r",
+  "version": "0.0.1",
+  "name": "Draggable lists Reforged",
+  "description": "Draggable resource packs, datapacks, servers and worlds - now on new versions!",
+  "authors": [
+    "MrMelon54"
+  ],
+  "contributors": [
+    "NIM_bp"
+  ],
+
+  "contact": {
+    "sources": "https://github.com/nmsltr/draggable_lists_reforged"
+  },
+  "license": "GPL-3.0-only",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.mrmelon54.DraggableLists.fabric.DraggableListsFabric"
+    ],
+    "modmenu": [
+      "com.mrmelon54.DraggableLists.fabriclike.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "draggable_lists.mixins.json",
+    "draggable_lists-common.mixins.json"
+  ],
+  "depends": {
+    "fabric-api": "*",
+    "minecraft": ">=26.2",
+    "architectury": ">=21.0.7",
+    "cloth-config": ">=26.2.155"
+  }
+}

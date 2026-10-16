@@ -3,9 +3,12 @@ package com.mrmelon54.DraggableLists.mixin.server;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen;
 import net.minecraft.client.gui.screens.multiplayer.ServerSelectionList;
+import net.minecraft.client.input.MouseButtonEvent;
+import net.minecraft.client.input.MouseButtonInfo;
 import net.minecraft.network.chat.Component;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
@@ -19,20 +22,27 @@ public abstract class JoinMultiplayerScreenMixin extends Screen {
         super(component);
     }
 
-    @Inject(method = "joinSelectedServer", at = @At("HEAD"))
+    // A "mouse released at 0,0 with button 0" event, used to cancel a drag that is still in progress
+    @Unique
+    private static MouseButtonEvent draggable_lists$releaseEvent() {
+        return new MouseButtonEvent(0, 0, new MouseButtonInfo(0, 0));
+    }
+
+    @Inject(method = "join", at = @At("HEAD"))
     private void injectedConnect(CallbackInfo info) {
-        if (serverSelectionList.isDragging()) serverSelectionList.mouseReleased(0, 0, 0);
+        if (serverSelectionList.isDragging()) serverSelectionList.mouseReleased(draggable_lists$releaseEvent());
     }
 
     @Override
-    public boolean mouseReleased(double mouseX, double mouseY, int button) {
-        if (serverSelectionList.isDragging()) serverSelectionList.mouseReleased(mouseX, mouseY, button);
-        return super.mouseReleased(mouseX, mouseY, button);
+    public boolean mouseReleased(MouseButtonEvent event) {
+        if (serverSelectionList.isDragging()) serverSelectionList.mouseReleased(event);
+        return super.mouseReleased(event);
     }
 
     @Override
     public void onClose() {
-        if (serverSelectionList.isDragging()) serverSelectionList.mouseReleased(0, 0, 0);
+        if (serverSelectionList.isDragging()) serverSelectionList.mouseReleased(draggable_lists$releaseEvent());
         super.onClose();
     }
 }
+

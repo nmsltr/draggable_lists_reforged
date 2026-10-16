@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98340bbf-53a3-413b-b095-1bd59914eb5c" name="Changes" comment="пенис!!!!">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/Cursor.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/Cursor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DragItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DragItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DragList.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DragList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DragManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DragManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DraggableLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/DraggableLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/config/EnabledMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/config/EnabledMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/duck/ResourcePackOrganizerDuckProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/duck/ResourcePackOrganizerDuckProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/MinecraftMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/MinecraftMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/PackSelectionModelMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/PackSelectionModelMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/PackSelectionModel_EntryBaseMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/PackSelectionModel_EntryBaseMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/PackSelectionScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/PackSelectionScreenMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/TransferableSelectionListMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/TransferableSelectionListMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/TransferableSelectionList_PackEntryMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/packs/TransferableSelectionList_PackEntryMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/server/JoinMultiplayerScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/server/JoinMultiplayerScreenMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/server/OnlineServerEntryMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/server/OnlineServerEntryMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/server/ServerSelectionListMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/mrmelon54/DraggableLists/mixin/server/ServerSelectionListMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/draggable_lists.accesswidener" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/draggable_lists.accesswidener" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric-like/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric-like/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric-like/src/main/java/com/mrmelon54/DraggableLists/fabriclike/ModMenuIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric-like/src/main/java/com/mrmelon54/DraggableLists/fabriclike/ModMenuIntegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/src/main/java/com/mrmelon54/DraggableLists/neoforge/DraggableListsNeoforge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/neoforge.mods.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/src/main/resources/draggable_lists.mixins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/src/main/resources/pack.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quilt/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quilt/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quilt/src/main/java/com/mrmelon54/DraggableLists/quilt/DraggableListsQuilt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quilt/src/main/resources/draggable_lists.mixins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quilt/src/main/resources/quilt.mod.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="draggable_lists" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3KjMn2NyVuT9BY0PqaaEcUSbhgH" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\fabric\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Minecraft Client (:fabric)" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98340bbf-53a3-413b-b095-1bd59914eb5c" name="Changes" comment="" />
+      <created>1792066687640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792066687640</updated>
+    </task>
+    <task id="LOCAL-00001" summary="working ver. in dev.">
+      <option name="closed" value="true" />
+      <created>1792071549389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1792071549389</updated>
+    </task>
+    <task id="LOCAL-00002" summary="working ver. in dev.">
+      <option name="closed" value="true" />
+      <created>1792071658078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1792071658078</updated>
+    </task>
+    <task id="LOCAL-00003" summary="пенис!!!!">
+      <option name="closed" value="true" />
+      <created>1792071719300</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1792071719300</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working ver. in dev." />
+    <MESSAGE value="пенис!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="пенис!!!!" />
+  </component>
+</project>

@@ -1,0 +1,68 @@
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] Transforming from C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-dev.jar to C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-transformProductionFabric.jar
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] Transforming 4 transformer(s) from C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-dev.jar to C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-transformProductionFabric.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@4bb0ddec
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@539f4c3c
+[Architectury Transformer DEBUG]  - AddRefmapName(enabled=dev.architectury.plugin.transformers.AddRefmapName$$Lambda/0x000000009dc53cf8@321311f5)
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@6f0734dc
+[Architectury Transformer DEBUG] Transforming from C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-dev.jar to C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-transformProductionFabric.jar with 4 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/server/ServerSelectionListMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/server/ServerListMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/server/OnlineServerEntryMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/server/JoinMultiplayerScreenMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/packs/TransferableSelectionList_PackEntryMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/packs/TransferableSelectionListMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/packs/PackSelectionScreenMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/packs/PackSelectionModel_EntryBaseMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/packs/PackSelectionModelMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/MinecraftMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/duck/ServerListDuckProvider with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/duck/ResourcePackOrganizerDuckProvider with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/duck/AbstractPackDuckProvider with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/config/EnabledMode with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/config/ConfigStructure with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/DraggableLists with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/DragManager with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/DragList with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/DragItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/Cursor with maxs=true frames=true
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-transformProductionFabric.jar
+[Architectury Transformer] Transformed jar with 4 transformer(s) in 104.2 ms
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] Transforming from C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-dev.jar to C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-transformProductionFabric.jar
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] Transforming 4 transformer(s) from C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-dev.jar to C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-transformProductionFabric.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@54e90186
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@5aa3ad06
+[Architectury Transformer DEBUG]  - AddRefmapName(enabled=dev.architectury.plugin.transformers.AddRefmapName$$Lambda/0x000000009dc53cf8@321311f5)
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@66bf6df9
+[Architectury Transformer DEBUG] Transforming from C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-dev.jar to C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-transformProductionFabric.jar with 4 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/server/ServerSelectionListMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/server/ServerListMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/server/OnlineServerEntryMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/server/JoinMultiplayerScreenMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/packs/TransferableSelectionList_PackEntryMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/packs/TransferableSelectionListMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/packs/PackSelectionScreenMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/packs/PackSelectionModel_EntryBaseMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/packs/PackSelectionModelMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/mixin/MinecraftMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/duck/ServerListDuckProvider with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/duck/ResourcePackOrganizerDuckProvider with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/duck/AbstractPackDuckProvider with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/config/EnabledMode with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/config/ConfigStructure with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/DraggableLists with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/DragManager with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/DragList with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/DragItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/mrmelon54/DraggableLists/Cursor with maxs=true frames=true
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ним\Downloads\ALL\Games\Minecraft\mods\draggable_lists_r\common\build\libs\draggable_lists_ref-0.0.1-transformProductionFabric.jar
+[Architectury Transformer] Transformed jar with 4 transformer(s) in 17.97 ms

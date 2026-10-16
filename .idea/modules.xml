@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/draggable_lists.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/draggable_lists.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/draggable_lists.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/draggable_lists.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/draggable_lists.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/draggable_lists.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric-like/draggable_lists.fabric-like.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric-like/draggable_lists.fabric-like.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric-like/draggable_lists.fabric-like.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric-like/draggable_lists.fabric-like.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric-like/draggable_lists.fabric-like.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric-like/draggable_lists.fabric-like.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/draggable_lists.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/draggable_lists.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/draggable_lists.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/draggable_lists.fabric.test.iml" />
+    </modules>
+  </component>
+</project>

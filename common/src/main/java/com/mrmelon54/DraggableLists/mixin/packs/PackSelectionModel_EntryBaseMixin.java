@@ -22,9 +22,9 @@ public abstract class PackSelectionModel_EntryBaseMixin implements AbstractPackD
     private Pack pack;
 
     @Shadow
-    @Dynamic("field_25460 is provided by PackSelectionModel.EntryBase but has no mapping")
+    @Dynamic("synthetic reference to the outer PackSelectionModel (this$0)")
     @Final
-    private PackSelectionModel field_25460;
+    private PackSelectionModel this$0;
 
     @Override
     public void draggable_lists$moveTo(int j) {
@@ -40,8 +40,7 @@ public abstract class PackSelectionModel_EntryBaseMixin implements AbstractPackD
         list.removeAll(list1);
         list.addAll(list1);
 
-        if (field_25460 instanceof ResourcePackOrganizerDuckProvider duckProvider)
-            duckProvider.draggable_lists$updateSelectedList();
+        if (this$0 instanceof ResourcePackOrganizerDuckProvider duckProvider)
+            duckProvider.draggable_lists$updateSelectedList((PackSelectionModel.EntryBase) (Object) this);
     }
-
 }

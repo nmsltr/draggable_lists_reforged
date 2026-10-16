@@ -1,0 +1,557 @@
+tiny	2	0	official
+c	net/minecraft/world/inventory/MenuType
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/inventory/MenuType$MenuSupplier;Lnet/minecraft/world/flag/FeatureFlagSet;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/inventory/MenuType$MenuSupplier
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/entity/Entity
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	()Ljava/lang/String;	getEncodeId
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/gamerules/GameRules
+	c	Access widened by architectury-21.0.7-dev.jar to accessible\n\n\n\n
+	m	(Ljava/lang/String;Lnet/minecraft/world/level/gamerules/GameRuleCategory;Lnet/minecraft/world/level/gamerules/GameRuleType;Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/mojang/serialization/Codec;Ljava/lang/Object;Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/world/level/gamerules/GameRules$VisitorCaller;Ljava/util/function/ToIntFunction;)Lnet/minecraft/world/level/gamerules/GameRule;	register
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Ljava/lang/String;Lnet/minecraft/world/level/gamerules/GameRuleCategory;Z)Lnet/minecraft/world/level/gamerules/GameRule;	registerBoolean
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Ljava/lang/String;Lnet/minecraft/world/level/gamerules/GameRuleCategory;II)Lnet/minecraft/world/level/gamerules/GameRule;	registerInteger
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Ljava/lang/String;Lnet/minecraft/world/level/gamerules/GameRuleCategory;III)Lnet/minecraft/world/level/gamerules/GameRule;	registerInteger
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Ljava/lang/String;Lnet/minecraft/world/level/gamerules/GameRuleCategory;IIILnet/minecraft/world/flag/FeatureFlagSet;)Lnet/minecraft/world/level/gamerules/GameRule;	registerInteger
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/storage/LevelResource
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Ljava/lang/String;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/entity/BlockEntityType$BlockEntitySupplier
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/entity/player/Player
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	()V	closeContainer
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/client/renderer/rendertype/RenderType
+	c	Access widened by architectury-21.0.7-dev.jar to accessible\n\n\n
+	f	Lnet/minecraft/client/renderer/rendertype/RenderSetup;	state
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Ljava/util/Optional;	outline
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Ljava/lang/String;	name
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Ljava/lang/String;Lnet/minecraft/client/renderer/rendertype/RenderSetup;)Lnet/minecraft/client/renderer/rendertype/RenderType;	create
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/item/CreativeModeTab$Output
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/item/CreativeModeTab$TabVisibility
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/client/gui/components/debug/DebugScreenEntries
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/gui/components/debug/DebugScreenEntry;)Lnet/minecraft/resources/Identifier;	register
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/AttachedStemBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/tags/TagKey;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/AzaleaBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/BarrierBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/BaseCoralFanBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/BaseCoralPlantBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/BaseCoralWallFanBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/BigDripleafBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/BigDripleafStemBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/BlastFurnaceBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/BushBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/ButtonBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/properties/BlockSetType;ILnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/CactusBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/CakeBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/CandleCakeBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/CartographyTableBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/CarvedPumpkinBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/ChestBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Ljava/util/function/Supplier;Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/ChorusFlowerBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/ChorusPlantBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/CoralFanBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/CoralPlantBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/CoralWallFanBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/CraftingTableBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/CreakingHeartBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/CropBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/DecoratedPotBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/DirtPathBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/DispenserBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/DoorBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/properties/BlockSetType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/DryVegetationBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/EnchantingTableBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/EndGatewayBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/EndPortalBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/EndRodBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/EnderChestBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/FarmlandBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/FlowerBedBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/FurnaceBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/GrindstoneBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/HalfTransparentBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/HangingRootsBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/IronBarsBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/JigsawBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/JukeboxBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/KelpBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/KelpPlantBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/LadderBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/LecternBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/LeverBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/LilyPadBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/LiquidBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible\n<p>Interface {@link dev.architectury.extensions.injected.InjectedLiquidBlockExtension} injected by mod architectury-21.0.7-dev.jar</p>
+	m	(Lnet/minecraft/world/level/material/FlowingFluid;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/LoomBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/MangroveRootsBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/NetherFungusBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/tags/TagKey;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/NetherRootsBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/tags/TagKey;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/NetherWartBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/NyliumBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/PlayerHeadBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/PlayerWallHeadBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/PoweredRailBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/PressurePlateBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/properties/BlockSetType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/PumpkinBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/RailBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/RedstoneTorchBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/RedstoneWallTorchBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/RepeaterBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/SaplingBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/grower/TreeGrower;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/ScaffoldingBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/SeaPickleBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/SeagrassBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/ShortDryGrassBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/SkullBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/SkullBlock$Type;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/SmithingTableBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/SmokerBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/SnowLayerBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/SnowyBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/SpawnerBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/SpongeBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/StairBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/StemBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/tags/TagKey;Lnet/minecraft/tags/TagKey;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/StructureBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/StructureVoidBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/SugarCaneBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/TallDryGrassBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/TallGrassBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/TorchBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/core/particles/SimpleParticleType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/TransparentBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/TrapDoorBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/properties/BlockSetType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WallSkullBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/SkullBlock$Type;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WallTorchBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/core/particles/SimpleParticleType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WaterloggedTransparentBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WeatheringCopperBarsBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WeatheringCopperChainBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WeatheringCopperDoorBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/properties/BlockSetType;Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WeatheringCopperGrateBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WeatheringCopperTrapDoorBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/properties/BlockSetType;Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WeatheringLanternBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WeatheringLightningRodBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WeightedPressurePlateBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(ILnet/minecraft/world/level/block/state/properties/BlockSetType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WetSpongeBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WitherSkullBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WitherWallSkullBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/level/block/WoolCarpetBlock
+	c	Access widened by architectury-21.0.7-dev.jar to accessible
+	m	(Lnet/minecraft/world/item/DyeColor;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V	<init>
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/client/renderer/RenderPipelines
+	c	Access widened by architectury-21.0.7-dev.jar to accessible\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+	f	Ljava/util/Map;	PIPELINES_BY_LOCATION
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	F	ALPHA_CUTOUT_THRESHOLD_DEFAULT
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	F	ALPHA_CUTOUT_THRESHOLD_CUTOUT_TERRAIN
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	GLOBALS_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	MATRICES_FOG_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	MATRICES_FOG_LIGHT_DIR_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	GENERIC_BLOCKS_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	TERRAIN_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	BLOCK_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	ENTITY_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	ENTITY_EMISSIVE_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	BEACON_BEAM_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	ITEM_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	TEXT_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	WORLD_TEXT_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	END_PORTAL_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	CLOUDS_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	LINES_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	DEBUG_FILLED_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	PARTICLE_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	WEATHER_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	GUI_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	GUI_TEXTURED_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	GUI_TEXT_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	OUTLINE_SNIPPET
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/item/CreativeModeTabs
+	c	Access widened by architectury-21.0.7-dev.jar to accessible\n\n\n\n\n\n\n\n\n\n\n\n\n
+	f	Lnet/minecraft/resources/ResourceKey;	BUILDING_BLOCKS
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lnet/minecraft/resources/ResourceKey;	COLORED_BLOCKS
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lnet/minecraft/resources/ResourceKey;	NATURAL_BLOCKS
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lnet/minecraft/resources/ResourceKey;	FUNCTIONAL_BLOCKS
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lnet/minecraft/resources/ResourceKey;	REDSTONE_BLOCKS
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lnet/minecraft/resources/ResourceKey;	HOTBAR
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lnet/minecraft/resources/ResourceKey;	SEARCH
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lnet/minecraft/resources/ResourceKey;	TOOLS_AND_UTILITIES
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lnet/minecraft/resources/ResourceKey;	COMBAT
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lnet/minecraft/resources/ResourceKey;	FOOD_AND_DRINKS
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lnet/minecraft/resources/ResourceKey;	INGREDIENTS
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lnet/minecraft/resources/ResourceKey;	SPAWN_EGGS
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lnet/minecraft/resources/ResourceKey;	OP_BLOCKS
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+	f	Lnet/minecraft/resources/ResourceKey;	INVENTORY
+		c	Access widened by architectury-21.0.7-dev.jar to accessible
+c	net/minecraft/world/item/Item
+	c	<p>Interface {@link dev.architectury.extensions.injected.InjectedItemExtension} injected by mod architectury-21.0.7-dev.jar</p>
+c	net/minecraft/world/item/BucketItem
+	c	<p>Interface {@link dev.architectury.extensions.injected.InjectedBucketItemExtension} injected by mod architectury-21.0.7-dev.jar</p>
+c	net/minecraft/world/level/block/Block
+	c	<p>Interface {@link dev.architectury.extensions.injected.InjectedBlockExtension} injected by mod architectury-21.0.7-dev.jar</p>
+c	net/minecraft/world/entity/EntityType
+	c	<p>Interface {@link dev.architectury.extensions.injected.InjectedEntityTypeExtension} injected by mod architectury-21.0.7-dev.jar</p>
+c	net/minecraft/world/level/material/Fluid
+	c	<p>Interface {@link dev.architectury.extensions.injected.InjectedFluidExtension} injected by mod architectury-21.0.7-dev.jar</p>
+c	net/minecraft/world/item/Item$Properties
+	c	<p>Interface {@link dev.architectury.extensions.injected.InjectedItemPropertiesExtension} injected by mod architectury-21.0.7-dev.jar</p>

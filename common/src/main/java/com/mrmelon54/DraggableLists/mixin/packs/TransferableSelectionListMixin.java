@@ -8,47 +8,48 @@ import com.mrmelon54.DraggableLists.duck.AbstractPackDuckProvider;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.components.ObjectSelectionList;
 import net.minecraft.client.gui.screens.packs.PackSelectionModel;
 import net.minecraft.client.gui.screens.packs.TransferableSelectionList;
+import net.minecraft.client.input.MouseButtonEvent;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
 
 @Mixin(TransferableSelectionList.class)
 @Environment(EnvType.CLIENT)
-public abstract class TransferableSelectionListMixin extends ObjectSelectionList<TransferableSelectionList.PackEntry> implements DragList<PackSelectionModel.Entry, TransferableSelectionList.PackEntry> {
-    @Shadow
-    protected abstract int scrollBarX();
-
+public abstract class TransferableSelectionListMixin extends ObjectSelectionList<TransferableSelectionList.Entry> implements DragList<PackSelectionModel.Entry, TransferableSelectionList.Entry> {
     @Unique
-    private final DragManager<PackSelectionModel.Entry, TransferableSelectionList.PackEntry> draggable_lists$dragManager = new DragManager<>(this);
+    private final DragManager<PackSelectionModel.Entry, TransferableSelectionList.Entry> draggable_lists$dragManager = new DragManager<>(this);
 
     public TransferableSelectionListMixin(Minecraft minecraft, int i, int j, int k, int l, int m) {
         super(minecraft, i, j, k, l);
     }
 
     @Override
-    protected void renderListItems(GuiGraphics guiGraphics, int mouseX, int mouseY, float tickDelta) {
-        draggable_lists$dragManager.renderListItems(guiGraphics, mouseX, mouseY, tickDelta);
+    protected void extractListItems(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float tickDelta) {
+        if (draggable_lists$dragManager.isDragging()) {
+            draggable_lists$dragManager.renderListItems(guiGraphics, mouseX, mouseY, tickDelta);
+        } else {
+            super.extractListItems(guiGraphics, mouseX, mouseY, tickDelta);
+        }
     }
 
     @Unique
     private boolean draggable_lists$isMouseOverScrollbar(double mouseX) {
-        return scrollbarVisible() && mouseX >= scrollBarX();
+        return scrollable() && mouseX >= scrollBarX();
     }
 
     @Override
-    public boolean mouseReleased(double mouseX, double mouseY, int button) {
-        if (draggable_lists$dragManager.mouseReleased(mouseX, mouseY, button)) return true;
-        return super.mouseReleased(mouseX, mouseY, button);
+    public boolean mouseReleased(MouseButtonEvent event) {
+        if (draggable_lists$dragManager.mouseReleased(event.x(), event.y())) return true;
+        return super.mouseReleased(event);
     }
 
     @Override
-    public boolean mouseDragged(double mouseX, double mouseY, int button, double deltaX, double deltaY) {
-        if (DraggableLists.CONFIG.resourcePackDraggingEnabled.isEnabled() && !draggable_lists$isMouseOverScrollbar(mouseX) && draggable_lists$dragManager.mouseDragged(mouseX, mouseY, button, deltaX, deltaY)) return true;
-        return super.mouseDragged(mouseX, mouseY, button, deltaX, deltaY);
+    public boolean mouseDragged(MouseButtonEvent event, double deltaX, double deltaY) {
+        if (DraggableLists.CONFIG.resourcePackDraggingEnabled.isEnabled() && !draggable_lists$isMouseOverScrollbar(event.x()) && draggable_lists$dragManager.mouseDragged(event.x(), event.y())) return true;
+        return super.mouseDragged(event, deltaX, deltaY);
     }
 
     @Override
@@ -58,30 +59,30 @@ public abstract class TransferableSelectionListMixin extends ObjectSelectionList
     }
 
     @Override
-    public void renderWidget(GuiGraphics guiGraphics, int mouseX, int mouseY, float delta) {
-        super.renderWidget(guiGraphics, mouseX, mouseY, delta);
+    public void extractWidgetRenderState(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float delta) {
+        super.extractWidgetRenderState(guiGraphics, mouseX, mouseY, delta);
         draggable_lists$dragManager.renderWidget(guiGraphics, mouseX, mouseY, delta);
     }
 
     @Override
-    public DragItem<PackSelectionModel.Entry, TransferableSelectionList.PackEntry> draggable_lists$getEntryAtPosition(double mouseX, double mouseY) {
-        TransferableSelectionList.PackEntry entryAtPosition = getEntryAtPosition(mouseX, mouseY);
-        return (DragItem<PackSelectionModel.Entry, TransferableSelectionList.PackEntry>) entryAtPosition;
+    @SuppressWarnings("unchecked")
+    public DragItem<PackSelectionModel.Entry, TransferableSelectionList.Entry> draggable_lists$getEntryAtPosition(double mouseX, double mouseY) {
+        TransferableSelectionList.Entry entryAtPosition = getEntryAtPosition(mouseX, mouseY);
+        // The header row is also an entry but it can't be dragged
+        if (entryAtPosition instanceof DragItem<?, ?> item) {
+            return (DragItem<PackSelectionModel.Entry, TransferableSelectionList.Entry>) item;
+        }
+        return null;
     }
 
     @Override
-    public int draggable_lists$getIndexOfEntry(DragItem<PackSelectionModel.Entry, TransferableSelectionList.PackEntry> selectedItem) {
+    public int draggable_lists$getIndexOfEntry(DragItem<PackSelectionModel.Entry, TransferableSelectionList.Entry> selectedItem) {
         return children().indexOf(selectedItem.draggable_lists$getUnderlyingEntry());
     }
 
     @Override
     public void draggable_lists$setDragging(boolean b) {
         super.setDragging(b);
-    }
-
-    @Override
-    public int draggable_lists$getHeaderHeight() {
-        return headerHeight;
     }
 
     @Override
@@ -96,7 +97,7 @@ public abstract class TransferableSelectionListMixin extends ObjectSelectionList
 
     @Override
     public int draggable_lists$getItemHeight() {
-        return itemHeight;
+        return defaultEntryHeight;
     }
 
     @Override
@@ -130,9 +131,10 @@ public abstract class TransferableSelectionListMixin extends ObjectSelectionList
     }
 
     @Override
-    public void draggable_lists$moveEntry(DragItem<PackSelectionModel.Entry, TransferableSelectionList.PackEntry> item, int n) {
+    public void draggable_lists$moveEntry(DragItem<PackSelectionModel.Entry, TransferableSelectionList.Entry> item, int n) {
         if (item.draggable_lists$getUnderlyingData() instanceof AbstractPackDuckProvider duckProvider) {
-            duckProvider.draggable_lists$moveTo(n);
+            // n counts the header row, the pack model doesn't
+            duckProvider.draggable_lists$moveTo(Math.max(0, n - draggable_lists$getFirstDraggableIndex()));
         }
     }
 
@@ -142,7 +144,22 @@ public abstract class TransferableSelectionListMixin extends ObjectSelectionList
     }
 
     @Override
-    public void draggable_lists$renderItem(GuiGraphics guiGraphics, int mouseX, int mouseY, float tickDelta, int i, int rowLeft, int rowTop, int rowWidth, int rowHeight) {
-        renderItem(guiGraphics, mouseX, mouseY, tickDelta, i, rowLeft, rowTop, rowWidth, rowHeight);
+    public int draggable_lists$getFirstDraggableIndex() {
+        var entries = children();
+        for (int i = 0; i < entries.size(); i++) {
+            if (entries.get(i) instanceof DragItem<?, ?>) return i;
+        }
+        return 0;
+    }
+
+    @Override
+    public void draggable_lists$renderItem(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float tickDelta, int index, int y) {
+        TransferableSelectionList.Entry entry = children().get(index);
+        // Rows draw themselves at their own position, so move the row for the duration of the draw
+        int oldY = entry.getY();
+        entry.setY(y);
+        extractItem(guiGraphics, mouseX, mouseY, tickDelta, entry);
+        entry.setY(oldY);
     }
 }
+
